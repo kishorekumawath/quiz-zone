@@ -1,0 +1,869 @@
+{
+  "id": "Java_Subject",
+  "title": "Advanced Java Programming",
+  "image_url": "",
+  "description": "Test your advanced-level knowledge of Java programming with these challenging multiple-choice questions.",
+  "topics": [
+    {
+      "id": "java_variables_and_data_types",
+      "level": "Variables and Data Types",
+      "question_count": 5,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_variables_and_data_types_q01",
+          "question": "Which of the following data types is used to store whole numbers in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "float"
+            },
+            {
+              "identifier": "B",
+              "answer": "double"
+            },
+            {
+              "identifier": "C",
+              "answer": "int"
+            },
+            {
+              "identifier": "D",
+              "answer": "char"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "java_variables_and_data_types_q02",
+          "question": "What is the correct syntax to declare a constant in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "const int x = 10;"
+            },
+            {
+              "identifier": "B",
+              "answer": "final int x = 10;"
+            },
+            {
+              "identifier": "C",
+              "answer": "constant int x = 10;"
+            },
+            {
+              "identifier": "D",
+              "answer": "int constant x = 10;"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_variables_and_data_types_q03",
+          "question": "In Java, what does the 'super' keyword refer to?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "A reference variable used to refer to the current object"
+            },
+            {
+              "identifier": "B",
+              "answer": "A keyword used to indicate the beginning of a block of code"
+            },
+            {
+              "identifier": "C",
+              "answer": "A keyword used to invoke the superclass method"
+            },
+            {
+              "identifier": "D",
+              "answer": "A keyword used to declare a constant"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "java_variables_and_data_types_q04",
+          "question": "Which loop in Java is used to iterate over a collection of objects?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "for loop"
+            },
+            {
+              "identifier": "B",
+              "answer": "while loop"
+            },
+            {
+              "identifier": "C",
+              "answer": "do-while loop"
+            },
+            {
+              "identifier": "D",
+              "answer": "enhanced for loop"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": "java_variables_and_data_types_q05",
+          "question": "Which method is called when an object is created in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "init()"
+            },
+            {
+              "identifier": "B",
+              "answer": "start()"
+            },
+            {
+              "identifier": "C",
+              "answer": "main()"
+            },
+            {
+              "identifier": "D",
+              "answer": "constructor()"
+            }
+          ],
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "java_control_flow_and_loops",
+      "level": "Control Flow and Loops",
+      "question_count": 5,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_control_flow_and_loops_q01",
+          "question": "Which Java keyword is used to exit a loop prematurely?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "break"
+            },
+            {
+              "identifier": "B",
+              "answer": "exit"
+            },
+            {
+              "identifier": "C",
+              "answer": "return"
+            },
+            {
+              "identifier": "D",
+              "answer": "terminate"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_control_flow_and_loops_q02",
+          "question": "What is the purpose of the 'continue' statement in a loop?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Terminate the loop immediately"
+            },
+            {
+              "identifier": "B",
+              "answer": "Skip the rest of the loop's code and move to the next iteration"
+            },
+            {
+              "identifier": "C",
+              "answer": "Restart the loop from the beginning"
+            },
+            {
+              "identifier": "D",
+              "answer": "Pause the loop for a specified time"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_control_flow_and_loops_q03",
+          "question": "In Java, which loop is suitable when the number of iterations is known in advance?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "for loop"
+            },
+            {
+              "identifier": "B",
+              "answer": "while loop"
+            },
+            {
+              "identifier": "C",
+              "answer": "do-while loop"
+            },
+            {
+              "identifier": "D",
+              "answer": "enhanced for loop"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_control_flow_and_loops_q04",
+          "question": "What does the 'switch' statement evaluate in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Boolean expressions"
+            },
+            {
+              "identifier": "B",
+              "answer": "Arithmetic expressions"
+            },
+            {
+              "identifier": "C",
+              "answer": "String expressions"
+            },
+            {
+              "identifier": "D",
+              "answer": "Array expressions"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "java_control_flow_and_loops_q05",
+          "question": "How is an infinite loop created in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Using the 'for' loop"
+            },
+            {
+              "identifier": "B",
+              "answer": "Using the 'while' loop"
+            },
+            {
+              "identifier": "C",
+              "answer": "Using the 'do-while' loop"
+            },
+            {
+              "identifier": "D",
+              "answer": "Using 'if' statement"
+            }
+          ],
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "java_functions_and_methods",
+      "level": "Functions and Methods",
+      "question_count": 5,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_functions_and_methods_q01",
+          "question": "What is the purpose of the 'return' statement in a Java method?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Print a message to the console"
+            },
+            {
+              "identifier": "B",
+              "answer": "Terminate the program"
+            },
+            {
+              "identifier": "C",
+              "answer": "Return a value from the method"
+            },
+            {
+              "identifier": "D",
+              "answer": "Declare a variable"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "java_functions_and_methods_q02",
+          "question": "Which keyword is used to define a method in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "define"
+            },
+            {
+              "identifier": "B",
+              "answer": "method"
+            },
+            {
+              "identifier": "C",
+              "answer": "function"
+            },
+            {
+              "identifier": "D",
+              "answer": "void"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": "java_functions_and_methods_q03",
+          "question": "In Java, can a method have multiple parameters with the same name?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Yes"
+            },
+            {
+              "identifier": "B",
+              "answer": "No"
+            },
+            {
+              "identifier": "C",
+              "answer": "Depends on the method type"
+            },
+            {
+              "identifier": "D",
+              "answer": "Only if they are of different data types"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_functions_and_methods_q04",
+          "question": "What is the purpose of the 'static' keyword in a Java method declaration?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Make the method non-accessible"
+            },
+            {
+              "identifier": "B",
+              "answer": "Allow the method to be called without creating an instance of the class"
+            },
+            {
+              "identifier": "C",
+              "answer": "Enable dynamic method binding"
+            },
+            {
+              "identifier": "D",
+              "answer": "Indicate that the method is not yet implemented"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_functions_and_methods_q05",
+          "question": "What does the 'void' keyword indicate in a Java method declaration?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "The method returns an integer value"
+            },
+            {
+              "identifier": "B",
+              "answer": "The method returns no value"
+            },
+            {
+              "identifier": "C",
+              "answer": "The method is not accessible"
+            },
+            {
+              "identifier": "D",
+              "answer": "The method is private"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "java_exceptions_and_error_handling",
+      "level": "Exceptions and Error Handling",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_exceptions_and_error_handling_q01",
+          "question": "What is an exception in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "A syntax error in the code"
+            },
+            {
+              "identifier": "B",
+              "answer": "An abnormal condition or error that occurs during the execution of a program"
+            },
+            {
+              "identifier": "C",
+              "answer": "A statement that terminates the program"
+            },
+            {
+              "identifier": "D",
+              "answer": "A variable that holds error messages"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_exceptions_and_error_handling_q02",
+          "question": "Which keyword is used to handle exceptions in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "try"
+            },
+            {
+              "identifier": "B",
+              "answer": "catch"
+            },
+            {
+              "identifier": "C",
+              "answer": "throw"
+            },
+            {
+              "identifier": "D",
+              "answer": "finally"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_exceptions_and_error_handling_q03",
+          "question": "What is the purpose of the 'catch' block in exception handling?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Print a message to the console"
+            },
+            {
+              "identifier": "B",
+              "answer": "Execute a specific code when an exception occurs"
+            },
+            {
+              "identifier": "C",
+              "answer": "Terminate the program"
+            },
+            {
+              "identifier": "D",
+              "answer": "Ignore the exception"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_exceptions_and_error_handling_q04",
+          "question": "Which of the following is not a type of exception in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Checked Exception"
+            },
+            {
+              "identifier": "B",
+              "answer": "Unchecked Exception"
+            },
+            {
+              "identifier": "C",
+              "answer": "Runtime Exception"
+            },
+            {
+              "identifier": "D",
+              "answer": "Uncaught Exception"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": "java_exceptions_and_error_handling_q05",
+          "question": "What is the purpose of the 'finally' block in exception handling?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Execute code whether an exception occurs or not"
+            },
+            {
+              "identifier": "B",
+              "answer": "Handle the exception and continue the program"
+            },
+            {
+              "identifier": "C",
+              "answer": "Terminate the program"
+            },
+            {
+              "identifier": "D",
+              "answer": "Print a message to the console"
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "java_multithreading",
+      "level": "Multithreading",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_multithreading_q01",
+          "question": "What is multithreading in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Executing multiple programs simultaneously"
+            },
+            {
+              "identifier": "B",
+              "answer": "Executing multiple threads within a single program simultaneously"
+            },
+            {
+              "identifier": "C",
+              "answer": "Running multiple instances of a Java program"
+            },
+            {
+              "identifier": "D",
+              "answer": "Executing multiple methods in a sequential manner"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_multithreading_q02",
+          "question": "What is a thread in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "A data structure that stores variables"
+            },
+            {
+              "identifier": "B",
+              "answer": "A unit of execution that runs independently"
+            },
+            {
+              "identifier": "C",
+              "answer": "A class that defines methods"
+            },
+            {
+              "identifier": "D",
+              "answer": "A keyword used for exception handling"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_multithreading_q03",
+          "question": "What is the main advantage of multithreading in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Reduced memory usage"
+            },
+            {
+              "identifier": "B",
+              "answer": "Improved program performance and responsiveness"
+            },
+            {
+              "identifier": "C",
+              "answer": "Simplified program structure"
+            },
+            {
+              "identifier": "D",
+              "answer": "Easier code debugging"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_multithreading_q04",
+          "question": "Which method is used to start a new thread in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "run()"
+            },
+            {
+              "identifier": "B",
+              "answer": "start()"
+            },
+            {
+              "identifier": "C",
+              "answer": "execute()"
+            },
+            {
+              "identifier": "D",
+              "answer": "launch()"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_multithreading_q05",
+          "question": "What is the purpose of the 'synchronized' keyword in Java multithreading?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Force a thread to sleep for a specified time"
+            },
+            {
+              "identifier": "B",
+              "answer": "Ensure only one thread can access a method or block at a time"
+            },
+            {
+              "identifier": "C",
+              "answer": "Terminate a thread immediately"
+            },
+            {
+              "identifier": "D",
+              "answer": "Print a message to the console"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "java_io_and_file_handling",
+      "level": "I/O and File Handling",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_io_and_file_handling_q01",
+          "question": "What is the purpose of the 'File' class in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Read and write data from and to the console"
+            },
+            {
+              "identifier": "B",
+              "answer": "Create and manipulate directories and files"
+            },
+            {
+              "identifier": "C",
+              "answer": "Define methods for mathematical calculations"
+            },
+            {
+              "identifier": "D",
+              "answer": "Handle exceptions during runtime"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_io_and_file_handling_q02",
+          "question": "Which class is used for character input in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "FileReader"
+            },
+            {
+              "identifier": "B",
+              "answer": "BufferedReader"
+            },
+            {
+              "identifier": "C",
+              "answer": "InputStream"
+            },
+            {
+              "identifier": "D",
+              "answer": "OutputStream"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_io_and_file_handling_q03",
+          "question": "What is the purpose of the 'BufferedWriter' class in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Read data from a file"
+            },
+            {
+              "identifier": "B",
+              "answer": "Write data to a file efficiently"
+            },
+            {
+              "identifier": "C",
+              "answer": "Create a new file"
+            },
+            {
+              "identifier": "D",
+              "answer": "Close a file after reading or writing"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_io_and_file_handling_q04",
+          "question": "How can you read a file line by line in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Using the read() method"
+            },
+            {
+              "identifier": "B",
+              "answer": "Using the readLine() method"
+            },
+            {
+              "identifier": "C",
+              "answer": "Using the readAllLines() method"
+            },
+            {
+              "identifier": "D",
+              "answer": "Using the readFile() method"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_io_and_file_handling_q05",
+          "question": "What does the 'try-with-resources' statement do in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Handle exceptions in a try block"
+            },
+            {
+              "identifier": "B",
+              "answer": "Automatically close resources like files after use"
+            },
+            {
+              "identifier": "C",
+              "answer": "Execute code in a loop"
+            },
+            {
+              "identifier": "D",
+              "answer": "Define a new variable"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "java_collections_framework",
+      "level": "Collections Framework",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "java_collections_framework_q01",
+          "question": "What is the purpose of the 'ArrayList' class in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Represent a resizable array"
+            },
+            {
+              "identifier": "B",
+              "answer": "Handle exceptions during runtime"
+            },
+            {
+              "identifier": "C",
+              "answer": "Define methods for mathematical calculations"
+            },
+            {
+              "identifier": "D",
+              "answer": "Implement a linked list"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_collections_framework_q02",
+          "question": "Which interface does the 'HashSet' class implement in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "List"
+            },
+            {
+              "identifier": "B",
+              "answer": "Set"
+            },
+            {
+              "identifier": "C",
+              "answer": "Map"
+            },
+            {
+              "identifier": "D",
+              "answer": "Queue"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "java_collections_framework_q03",
+          "question": "What is the purpose of the 'HashMap' class in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Store elements in a sorted order"
+            },
+            {
+              "identifier": "B",
+              "answer": "Represent a resizable array"
+            },
+            {
+              "identifier": "C",
+              "answer": "Implement a key-value pair storage"
+            },
+            {
+              "identifier": "D",
+              "answer": "Handle exceptions during runtime"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "java_collections_framework_q04",
+          "question": "Which method is used to remove an element from an ArrayList in Java?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "remove()"
+            },
+            {
+              "identifier": "B",
+              "answer": "delete()"
+            },
+            {
+              "identifier": "C",
+              "answer": "erase()"
+            },
+            {
+              "identifier": "D",
+              "answer": "discard()"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "java_collections_framework_q05",
+          "question": "What is the purpose of the 'Iterator' interface in the Collections Framework?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Define methods for mathematical calculations"
+            },
+            {
+              "identifier": "B",
+              "answer": "Provide a way to traverse the elements of a collection"
+            },
+            {
+              "identifier": "C",
+              "answer": "Handle exceptions during runtime"
+            },
+            {
+              "identifier": "D",
+              "answer": "Implement a linked list"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ]
+}

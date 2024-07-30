@@ -1,0 +1,377 @@
+{
+    "id": "C_Subject",
+    "title": "Advanced C Programming",
+    "image_url": "",
+    "description": "Test your advanced-level knowledge of C programming with these challenging multiple-choice questions.",
+    "topics": [
+        {
+            "id": "c_easy",
+            "level": "easy",
+            "question_count": 5,
+            "time_seconds": 600,
+            "questions": [
+                {
+                    "id": "c_easy_001",
+                    "question": "What is the main function's return type in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "void"
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "int"
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "float"
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "char"
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_easy_002",
+                    "question": "Which operator is used for assigning a value to a variable in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "="
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "=="
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "+="
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "*="
+                        }
+                    ],
+                    "correct_answer": "A"
+                },
+                {
+                    "id": "c_easy_003",
+                    "question": "What is the size of 'int' data type in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "2 bytes"
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "4 bytes"
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "8 bytes"
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Depends on the compiler"
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_easy_004",
+                    "question": "How do you include a header file in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "#include <>"
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "#include \"\""
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "#import"
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "#add"
+                        }
+                    ],
+                    "correct_answer": "A"
+                },
+                {
+                    "id": "c_easy_005",
+                    "question": "Which keyword is used to terminate a 'switch' statement in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "terminate"
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "exit"
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "break"
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "end"
+                        }
+                    ],
+                    "correct_answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "c_medium",
+            "level": "medium",
+            "question_count": 5,
+            "time_seconds": 600,
+            "questions": [
+                {
+                    "id": "c_medium_001",
+                    "question": "What is the purpose of the 'malloc' function in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Allocate memory on the stack."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Allocate memory on the heap."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Free dynamically allocated memory."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Allocate memory for a constant."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_medium_002",
+                    "question": "What is the purpose of the 'struct' keyword in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Declare a function."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Define a structure."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Allocate memory."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Create a constant."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_medium_003",
+                    "question": "In C, what is the purpose of the 'fgets' function?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Print formatted output."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Read a string from a file."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Read a line from the console."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Allocate memory dynamically."
+                        }
+                    ],
+                    "correct_answer": "C"
+                },
+                {
+                    "id": "c_medium_004",
+                    "question": "What is the purpose of the 'union' keyword in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Define an enumerated type."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Declare a union."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Specify the access level of a variable."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Create a constant."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_medium_005",
+                    "question": "What is the purpose of the 'strcmp' function in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Allocate memory on the heap."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Compare two strings."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Concatenate two strings."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Print formatted output."
+                        }
+                    ],
+                    "correct_answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "c_hard",
+            "level": "hard",
+            "question_count": 5,
+            "time_seconds": 600,
+            "questions": [
+                {
+                    "id": "c_hard_001",
+                    "question": "What is the purpose of the '__asm__' keyword in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Declare a function with multiple definitions."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Specify the alignment of a variable or structure member."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Include assembly language code in C."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Prevent optimization of a variable."
+                        }
+                    ],
+                    "correct_answer": "C"
+                },
+                {
+                    "id": "c_hard_002",
+                    "question": "Explain the purpose of the 'volatile' keyword in C.",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Indicate that a variable is constant."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Prevent optimization of a variable."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Specify the access level of a variable."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Allocate memory dynamically."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_hard_003",
+                    "question": "What is the purpose of the 'alloca' function in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Allocate memory on the heap."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Allocate memory on the stack."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Free dynamically allocated memory."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Allocate memory for a constant."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_hard_004",
+                    "question": "What is the purpose of the '__attribute__' specifier in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Declare a variable as constant."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Specify the alignment of a variable or structure member."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Declare a variable as a pointer."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Prevent optimization of a variable."
+                        }
+                    ],
+                    "correct_answer": "B"
+                },
+                {
+                    "id": "c_hard_005",
+                    "question": "What is the purpose of the 'inline' keyword in C?",
+                    "answers": [
+                        {
+                            "identifier": "A",
+                            "answer": "Indicate that a function should be inlined by the compiler for performance optimization."
+                        },
+                        {
+                            "identifier": "B",
+                            "answer": "Declare a function with multiple definitions."
+                        },
+                        {
+                            "identifier": "C",
+                            "answer": "Allocate memory dynamically for a function."
+                        },
+                        {
+                            "identifier": "D",
+                            "answer": "Specify that a function should not be inlined by the compiler."
+                        }
+                    ],
+                    "correct_answer": "A"
+                }
+            ]
+        }
+    ]
+}

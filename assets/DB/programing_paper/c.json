@@ -1,0 +1,393 @@
+{
+  "id": "C_Subject",
+  "title": "Advanced C Programming",
+  "image_url": "",
+  "description": "Test your advanced-level knowledge of C programming with these challenging multiple-choice questions.",
+  "topics": [
+    {
+      "id": "variables_and_data_types",
+      "level": "Variables and Data Types",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "variables_and_data_types_q01",
+          "question": "What is the main function's return type in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "void"
+            },
+            {
+              "identifier": "B",
+              "answer": "int"
+            },
+            {
+              "identifier": "C",
+              "answer": "float"
+            },
+            {
+              "identifier": "D",
+              "answer": "char"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "variables_and_data_types_q02",
+          "question": "What is the size of 'char' data type in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "1 byte"
+            },
+            {
+              "identifier": "B",
+              "answer": "2 bytes"
+            },
+            {
+              "identifier": "C",
+              "answer": "4 bytes"
+            },
+            {
+              "identifier": "D",
+              "answer": "8 bytes"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "variables_and_data_types_q03",
+          "question": "Which data type is used to store decimal numbers in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "int"
+            },
+            {
+              "identifier": "B",
+              "answer": "float"
+            },
+            {
+              "identifier": "C",
+              "answer": "char"
+            },
+            {
+              "identifier": "D",
+              "answer": "double"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "control_flow_and_loops",
+      "level": "Control Flow and Loops",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "control_flow_and_loops_q01",
+          "question": "Which operator is used for assigning a value to a variable in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "="
+            },
+            {
+              "identifier": "B",
+              "answer": "=="
+            },
+            {
+              "identifier": "C",
+              "answer": "+="
+            },
+            {
+              "identifier": "D",
+              "answer": "*="
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "control_flow_and_loops_q02",
+          "question": "In C, which loop is used to iterate over a range of values?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "for"
+            },
+            {
+              "identifier": "B",
+              "answer": "while"
+            },
+            {
+              "identifier": "C",
+              "answer": "do-while"
+            },
+            {
+              "identifier": "D",
+              "answer": "switch"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "control_flow_and_loops_q03",
+          "question": "What is the purpose of the 'break' statement in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Terminate the program"
+            },
+            {
+              "identifier": "B",
+              "answer": "Terminate the loop or switch statement"
+            },
+            {
+              "identifier": "C",
+              "answer": "Print a message"
+            },
+            {
+              "identifier": "D",
+              "answer": "Continue to the next iteration of the loop"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "functions_and_pointers",
+      "level": "Functions and Pointers",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "functions_and_pointers_q01",
+          "question": "What is the size of 'int' data type in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "2 bytes"
+            },
+            {
+              "identifier": "B",
+              "answer": "4 bytes"
+            },
+            {
+              "identifier": "C",
+              "answer": "8 bytes"
+            },
+            {
+              "identifier": "D",
+              "answer": "Depends on the compiler"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "functions_and_pointers_q02",
+          "question": "What is the purpose of the 'malloc' function in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Allocate memory on the stack."
+            },
+            {
+              "identifier": "B",
+              "answer": "Allocate memory on the heap."
+            },
+            {
+              "identifier": "C",
+              "answer": "Free dynamically allocated memory."
+            },
+            {
+              "identifier": "D",
+              "answer": "Allocate memory for a constant."
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "functions_and_pointers_q03",
+          "question": "What is the purpose of the 'void' keyword in C function declarations?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Declare a variable as constant."
+            },
+            {
+              "identifier": "B",
+              "answer": "Specify the access level of a variable."
+            },
+            {
+              "identifier": "C",
+              "answer": "Indicate that the function does not return a value."
+            },
+            {
+              "identifier": "D",
+              "answer": "Allocate memory dynamically."
+            }
+          ],
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "structures_and_unions",
+      "level": "Structures and Unions",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "structures_and_unions_q01",
+          "question": "How do you declare a structure in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "struct MyStruct;"
+            },
+            {
+              "identifier": "B",
+              "answer": "create MyStruct as structure;"
+            },
+            {
+              "identifier": "C",
+              "answer": "define MyStruct as structure;"
+            },
+            {
+              "identifier": "D",
+              "answer": "MyStruct = structure;"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "structures_and_unions_q02",
+          "question": "What is the purpose of the 'union' keyword in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "Define an enumerated type."
+            },
+            {
+              "identifier": "B",
+              "answer": "Declare a union."
+            },
+            {
+              "identifier": "C",
+              "answer": "Specify the access level of a variable."
+            },
+            {
+              "identifier": "D",
+              "answer": "Create a constant."
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": "structures_and_unions_q03",
+          "question": "How do you access a member of a structure in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "structure.member"
+            },
+            {
+              "identifier": "B",
+              "answer": "member.structure"
+            },
+            {
+              "identifier": "C",
+              "answer": "structure->member"
+            },
+            {
+              "identifier": "D",
+              "answer": "member->structure"
+            }
+          ],
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "arrays_and_strings",
+      "level": "Arrays and Strings",
+      "question_count": 3,
+      "time_seconds": 600,
+      "questions": [
+        {
+          "id": "arrays_and_strings_q01",
+          "question": "Which keyword is used to terminate a 'switch' statement in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "terminate"
+            },
+            {
+              "identifier": "B",
+              "answer": "exit"
+            },
+            {
+              "identifier": "C",
+              "answer": "break"
+            },
+            {
+              "identifier": "D",
+              "answer": "end"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": "arrays_and_strings_q02",
+          "question": "What is the size of the 'char' data type in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "1 byte"
+            },
+            {
+              "identifier": "B",
+              "answer": "2 bytes"
+            },
+            {
+              "identifier": "C",
+              "answer": "4 bytes"
+            },
+            {
+              "identifier": "D",
+              "answer": "8 bytes"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": "arrays_and_strings_q03",
+          "question": "How do you concatenate two strings in C?",
+          "answers": [
+            {
+              "identifier": "A",
+              "answer": "strcat(string1, string2)"
+            },
+            {
+              "identifier": "B",
+              "answer": "concat(string1, string2)"
+            },
+            {
+              "identifier": "C",
+              "answer": "string1 + string2"
+            },
+            {
+              "identifier": "D",
+              "answer": "append(string1, string2)"
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    }
+  ]
+}
